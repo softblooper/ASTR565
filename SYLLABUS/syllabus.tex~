@@ -1,0 +1,333 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[hyperref,svgnames]{xcolor}
+\usepackage{ulem}
+
+%\usepackage[colorlinks=true,pdfborder={0 0 0},urlcolor=red,citecolor=blue,urlbordercolor={0 0 1},citebordercolor={0 0 1},linkbordercolor={0 0 1}]{hyperref}
+\usepackage[colorlinks=true,linkcolor=NavyBlue,urlcolor=NavyBlue,citecolor=NavyBlue]{hyperref}
+
+%\usepackage{html}
+\usepackage{graphicx}
+
+
+\newcommand{\simplelatexlink}[2]{\href{#2}{#1}}
+\newcommand{\simplelatexlinkfoot}[2]{\footnote{\href{#2}{#1}}}
+
+
+
+\title{Syllabus - ASTR 565\\Stellar Structure and Evolution\\Spring 2024}
+\author{Dr. Jason Jackiewicz\\\texttt{jasonj@nmsu.edu}  $\;\cdot\;$ 646.1699}
+\date{Professor of Astronomy\\New Mexico  State University\\\vspace{.25cm}\url{http://astronomy.nmsu.edu/jasonj/565/}}
+
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\parindent 0cm
+\parskip .2cm
+
+
+\section{Overview}
+
+
+This course will survey the physics of the interiors of stars and stellar evolution. Emphasis will be on understanding and deriving the equations of stellar structure, dynamical processes, stellar  evolution rules-of-thumb, and a qualitative understanding of how the observable properties of stars change as their intrinsic properties change.  We will then transition into using numerical models of stars for a more detailed picture. This is one of the most fundamental topics in astronomy because so much of our universe has to do with stars.
+
+The Sun is the star that provides the conditions for life on Earth. It is also the nearest stellar object and can be studied in a great amount of detail. Not only can we learn about the Sun itself, but we can use this information to study other stars and stellar systems. It is the most important astronomical object for many scientists, and will be used in some sense as a reference and testbed for other stars.
+
+%This semester, we will focus our attention on the known properties of the Sun and the physics governing it's structure and evolution. Some topics we will consider in great quantitative detail, while some will be merely introduced qualitatively. A full treatment of solar astrophysics would take more than one semester, and so we will focus mainly on its internal and surface properties. 
+
+Insights into the physics and processes occurring inside stars will be obtained through numerical modeling using a state-of-the-art code called MESA. This will be a tool for you to help answer questions about stellar astrophysics, and provide a way to visualize the richness of this complicated field. It might also help you in future research pursuits.
+
+Some of the topics on which we will concentrate will be explored through group work in class. Students are encouraged to ask questions, including those directed to other students.  Developing problem solving and critical thinking skills (see below) will be a high priority along with useful physics and mathematical training. Hopefully, these skills will help you on your future graduate school exams.
+
+
+\section{What to expect to take away from this course}
+
+The course is designed for all students to attain knowledge and skills in stellar physics. One can characterize this by explicitly listing very broad and general {\bf learning goals} and then more specific {\bf learning outcomes}. Everything we do will be directed towards these goals and outcomes.
+
+\subsection*{Learning goals}
+
+In two or three years from now, after this course  has long been forgotten, I want the following items to be the legacy of what we did this semester. You will
+\begin{enumerate}
+
+
+\item have developed problem-solving and critical thinking skills that will help you in whatever research direction you choose,
+
+\item have improved your ability to work productively with others and to convey your ideas clearly and succinctly,
+
+
+\item possess a broad understanding of stellar astronomy and its relation to  astronomy as a whole,
+
+\item appreciate the Sun as an important and very useful astronomical object and the target of  current research,
+
+
+\item have improved your basic and some higher-level mathematical and analytical skills.
+
+
+\end{enumerate}
+
+
+\subsection*{Learning outcomes}
+Based on the above goals, here are several specific  outcomes (or objectives) connected to the goals:
+\begin{itemize}
+
+%\item {\bf Know} the most important equations of stellar structure and how to manipulate them to understand basic principles and scaling relations.
+
+\item {\bf Recognize} and {\bf identify} the main concepts in a research article about stellar interiors and/or evolution when it appears in journals such as  \textit{Nature} and \textit{Science}. Also, be able to {\bf discuss} intelligently several of the monthly articles in a more specific journal like \textit{Astrophysical Journal}.
+
+
+\item {\bf Investigate}, {\bf compare}, and {\bf contrast} the properties of  stars across the H-R diagram.
+
+\item Be able to {\bf execute} a stellar evolution code and {\bf present} the results in a graphical way  to answer questions.
+
+\item {\bf Give examples} and {\bf illustrate} how stars of different mass evolve in time.
+
+
+%\item Compare and contrast the Sun's properties to other stars you will study across the H-R diagram.
+
+%\item {\bf Examine} the context of the statement \textit{The Sun is a laboratory for basic physics and astrophysics} to {\bf relate} it to other disciplines.
+
+
+\item {\bf Set up} and {\bf organize} all of the relevant equations of state, motion, equilibrium, conservation, as well as any constitutive relations that go into static and dynamic stellar models. This can begin with looking them up in a textbook. {\bf Propose} a method or scheme whereby these equations are solved to constitute a full model. 
+
+%\item {\bf Assess} the validity, using reasonable logic,  of the  approximations used for various situations  in a magnetohydrodynamic description of the Sun. 
+
+
+\end{itemize}
+
+\subsubsection*{Covid-19 information}
+
+The class is in-person as a default, but there will be a Zoom option for each class. This is due accomodate anyone who may be feeling symptomatic or sick. Below is the NMSU Astronomy Department policy for Spring 2022 classes:
+
+``Face-to-face classes are the default. For Spring 2022, all grad classes will be held in AY119 and, as per current university policy, all faculty and students must be masked during the class. All research shows that face-to-face classes are the best learning environment for graduate students. The peer environment provides an atmosphere where we can really dig deep into the subjects we love, where we can pivot to go into more depth if needed, or move on when we’re all ready. We will all use this face-to-face option as our default for our graduate classes.
+
+\uline{I hear you want to focus on face-to-face learning, but I’m sick, so should I still come to class?} The answer is No. If you feel unwell or have any flu-like symptoms, or if you know you’ve been around someone who has developed symptoms, stay home. Email your instructor and ask for whatever help they can provide - written learning materials, a recording, an extension on your assignment. We will all endeavor to provide a zoom option for classes upon request when we can, even at short notice when possible. If you are sick for a period of time and need an extended period of remote options for a few classes, just ask, and we will work with you so you do not miss out on class material.
+
+While we will try to adhere to the above policy in the department, in all cases the instructor always retains professional control over their classes. If you have any concerns, in particular if you ever start feeling anxious or nervous about face-to-face classes, you should chat to the instructor to discuss them.  The most important things you can do to make your semester as safe and enjoyable as possible, are to get vaccinated, get boosted, and wear a mask, so that you can come to class and we can do astrophysics. You can find all current NMSU policy, including information on vaccinations at \url{https://now.nmsu.edu}.''
+
+
+
+\section{Topics and Schedule}
+
+%The broad science topics or ``units'' that we will focus on are (in no particular order):
+
+%equation of state$\cdot$ nuclear energy generation $\cdot$ hydrostatic equilibrium  $\cdot$ polytropes  $\cdot$ radiation  and opacities $\cdot$ convection  $\cdot$ stellar timescales   $\cdot$ mass-luminosity relations $\cdot$ the main sequence $\cdot$ post main-sequence evolution.
+
+Take a look at the table below for the \textit{tentative} class schedule and list of main topics we will be discussing.
+\begin{table}[h!]
+  \sffamily
+  \small
+  \centering   
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} | l | l | l | l |}
+    \hline
+    Week & Dates & Unit & Topics \\
+    \hline\hline
+    1 & Jan.\,18 & - & No class (read MESA notes)\\
+    2 & Jan.\,23, 25 & 1  & Course intro, energy equilibrium, LTE, times scales\\ 
+    3 & Jan.\,30, Feb.\,1  & 4, 5 & Partition functions, mean molecular weight\\
+    4 & Feb.\,6, 8 & 6, 7 & ideal/degenerate gas equations of state \\
+    5 & Feb.\,13, 15 & 8, 9 & $\rho-T$ landscape,  hydrostatic equilibrium\\
+    6 & Feb.\,20, 22 & 10  & Polytropes\\
+    7 & Feb.\,27, 29 & 11, 12 & Thermodynamics \\
+    8 & Mar.\,5, 7 & 13 & Energy transport-radiation, MIDTERM EXAM\\
+    9 & Mar.\,12, 14 & ** NO CLASS **  & ** SPRING BREAK ** \\
+    10 & Mar.\,19, 21 & 14-16 & Opacity, convection\\
+    11 & Mar.\,26, 28 & 18, 19  & Zero-age main sequence, evolution on main sequence\\ 
+    12 & Apr.\, 2, 4 & 20 & Schoenberg-Chandrasekhar limit, subgiant branch \\
+    13 & Apr.\, 9, 11 & 21, 22 &  Red-giant branch, helium flash, dredge up, luminosity bump\\
+    14 & Apr.\, 16, 18 & 23, 24 & Helium burning, horizontal branch, AGB, planetary nebulae \\
+    15 & Apr.\, 23, 25 & 25, 26 &  White dwarfs, supernovae, neutron stars\\
+    16 & Apr.\, 30, May 2 & 17, 27 & instability strip, asteroseismology\\
+    - & May 6-10  & Final Exam Week & \\\hline
+  \end{tabular*}
+\end{table}
+
+%\begin{table}[h!]
+%  \sffamily
+%  \small
+%  \centering   
+%  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} | l | l | l | l |}
+%    \hline
+%    Week & Dates & Unit & Topics \\
+%    \hline\hline
+%    1 & Jan. 13 & - & Introduction to the course \\
+%    2 & Jan. 18, 20 & 1, 2  & Energy equilibrium, LTE, times scales, nuclear reactions\\ 
+%    3 & Jan. 25, 27 & 4, 5 & Partition functions, mean molecular weight\\
+%    4 & Feb. 1, 3 & 6, 7 & ideal/degenerate gas equations of state \\
+%    5 & Feb. 8, 10 & 8, 9 & $\rho-T$ landscape,  hydrostatic equilibrium\\
+%    6 & Feb. 15, 17 & 10  & Polytropes\\
+%    7 & Feb. 22, 24 & 11, 12 & Thermodynamics \\
+%    8 & Mar. 1, 3 & 13 & Energy transport-radiation, MIDTERM EXAM\\
+%    9 & Mar. 8, 10 & ** NO CLASS **  & ** SPRING BREAK ** \\
+%    10 & Mar 15, 17 & 14-16 & Opacity, convection\\
+%    11 & Mar. 22, 24 & 18, 19  & Zero-age main sequence, evolution on main sequence\\ 
+%    12 & Mar. 29, 31 & 20 & Schoenberg-Chandrasekhar limit, subgiant branch \\
+%    13 & Apr. 5, 7 & 21, 22 &  Red-giant branch, helium flash, dredge up, luminosity bump\\
+%    14 & Apr. 12, 14 & 23, 24 & Helium burning, horizontal branch, AGB, planetary nebulae \\
+%    15 & Apr. 19, 21 & 25, 26 &  White dwarfs, supernovae, neutron stars\\
+%    16 & Apr. 26, 28  & 17, 27 & instability strip, asteroseismology\\
+%    - & May 2  & Final Exam Week & \\\hline
+%  \end{tabular*}
+%\end{table}
+
+%\begin{table}[h!]
+%  \sffamily
+%  \small
+%  \centering   
+%  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} | l | l | l | l |}
+%    \hline
+%    Week & Dates & Unit & Topics \\
+%    \hline\hline
+%    1 & Aug. 22 & - & Introduction to the course \\
+%    2 & Aug. 27, 29 & 1, 4  & Energy equilibrium, LTE, times scales, partition functions\\ 
+%    3 & Sep. 3, 5 & 5, 6 & Mean molecular weight, ideal gas equation of state\\
+%    4 & Sep. 10, 12 & 7, 8 & degenerate gas equation of state, $\rho-T$ landscape\\
+%    5 & Sep. 17, 19 & 9, 10 & Thermodynamics, hydrostatic equilibrium\\
+%    6 & Sep. 24, 26 & ** NO CLASS ** & ** NO CLASS ** \\
+%    7 & Oct. 1, 3 & 11, 12 & Virial theorem, Polytropes\\
+%    8 & Oct. 8, 10 & 13 & Energy transport, conduction, convection, radiation\\
+%    9 & Oct. 15, 17 & ** NO CLASS **  & ** NO CLASS ** \\
+%    10 & Oct. 22, 24 &  & Zero-age main sequence, evolution on main sequence\\
+%    11 & Oct. 29, 31 &  & Schoenberg-Chandrasekhar limit, subgiant branch \\
+%    12 & Nov. 5, 7 &  &  Red-giant branch, helium flash, dredge up, luminosity bump\\
+%    13 & Nov. 12, 14 &  & Helium burning, horizontal branch, AGB, planetary nebulae \\
+%    14 & Nov. 19, 21 & & White dwarfs, supernovae, neutron stars\\
+%    15 & Nov. 26, 28 & ** NO CLASS ** & ** THANKSGIVING HOLIDAY **\\
+%    16 & Dec. 3, 5  &  & instability strip, asteroseismology\\
+%    - & Dec. 9-13 & Final Exam Week & \\\hline
+%  \end{tabular*}
+%\end{table}
+
+% \begin{table}[h!]
+%   \sffamily
+%   \small
+%   \centering   
+%   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} | l | l | l | l |}
+%     \hline
+%     Week & Dates & Unit & Topics \\
+%     \hline\hline
+%     1 & Aug. 22 & - & Introduction to the course \\
+%     2 & Aug. 27, 29 & Unit 1: Energy generation & equilibrium, nuclear reactions and rates, energy release \\
+%     3 & Sep. 3, 5 & Unit 1, Unit 2: Hydrostatics & H burning, times scales, statistical mechanics\\
+%     4 & Sep. 10, 12 & Unit 2: Hydrostatics & mean molecular weight, equations of state, degeneracy\\
+%     5 & Sep. 17, 19 & Unit 2: Hydrostatics & radiation pressure, thermodynamics, hydrostatic equilibrium\\
+%      6 & NEEDED  & Unit 2: Hydrostatics & Virial theorem, polytropes\\
+%     6 & Sep. 24, 26 & NO CLASS & NO CLASS \\
+    
+%     7 & Oct. 1, 3 & Unit 3: Energy transport & radiative diffusion, opacity, Eddington luminosity\\
+%     8 & Oct. 8, 10 & Unit 3: Energy transport & conduction, convection, mixing-length theory\\
+%     9 & Oct. 15, 17 & NO CLASS MAUI  & NO CLASS \\
+%     10 & Oct. 22, 24 & Unit 4: Main sequence & homology relations\\
+%     11 & Oct. 29, 31 & Unit 4: Main sequence & forming stars, low-mass/high-mass MS evolution\\
+%     12 & Nov. 5, 7 & Unit 5: Post main sequence & Schoenberg-Chandrasekhar limit, RGB, helium flash\\
+%     13 & Nov. 12, 14 & Unit 5: Post main sequence & helium burning, horizontal branch \\
+%     14 & Nov. 19, 21 & Unit 5: Post main sequence & planetary nebulae, white dwarfs, supernovae, neutron stars\\
+%     15 & Nov. 26, 28 & NO CLASS & THANKSGIVING HOLIDAY\\
+%     16 & Dec. 3, 5  & Unit 5: Post main sequence & instability strip, asteroseismology\\
+%     - & Dec. 9-13 & Final Exam Week & \\\hline
+%   \end{tabular*}
+% \end{table}
+
+
+\section{Assessment}
+
+You will be graded for the course based primarily on the learning goals and outcomes outlined above. Some of your assignments will be  solving in-class group problems.   There will also be several homework assignments that will be computational in nature. Very short, yet frequent quizzes will take place, in addition to a mid-term and a final exam. Class participation and being engaged is important for understanding this material.
+
+\section{Grading}
+Each assignment and exam will have a total number of points that you can obtain. Based on those points, you can anticipate the  following approximate grading distribution:
+\begin{center}
+  \begin{tabular}{|c|c|}
+    \hline
+    %Class participation & 5\% \\
+    Computational projects and homework & 60\% \\
+    In-class work and quizzes & 20\% \\
+    Mid-term exam & 10\% \\
+    Final exam & 10\% \\
+    \hline
+  \end{tabular}
+\end{center}
+Final grades will use the $\pm$ system.
+
+\section{Other details}
+
+\subsection*{Prerequisites}
+
+Hopefully you will have a relatively strong background in calculus,  linear algebra, and plotting data.  However, any necessary deficiencies will be addressed in the course.  You will also need access to a computer, preferably on one of our servers.
+
+\subsection*{Materials}
+
+%The required textbook for the course is \textit{An Introduction to the Theory of Stellar Structure and Evolution}. Prialnik (2nd edition, 2009).
+
+
+
+There will be no official textbook: required materials will be given as needed, along with any suggested readings below. The NMSU Canvas system will be used  mostly for grade recording and to redirect you to the main course website that you should check very regularly. It is \href{http://astronomy.nmsu.edu/jasonj/565/}{http://astronomy.nmsu.edu/jasonj/565/}.
+
+ Some recommended texts are:
+ \begin{itemize}\itemsep 0cm
+ \item \textit{Stellar Structure and Evolution}. Kippenhahn and Weigert (1990).
+ \item \textit{Introduction to Stellar Physics, Volume 3}. B\"{o}hm-Vitense (1992).
+ \item \textit{Structure and Evolution of the Stars}. Schwarzschild (1958).
+ \item \textit{Stellar Evolution}. Harpaz (1994).
+ \item \textit{Stellar Interiors}. Hansen and Kawaler (1994).
+ \item \textit{Principles of Stellar Evolution and Nucleosynthesis}. Clayton (1983).
+ \item \textit{An Introduction to the Theory of Stellar Structure and Evolution}. Prialnik (2009).
+ \end{itemize}
+
+ Note that even one of our undergraduate 110 astronomy textbooks have very good chapters on stellar evolution. It would be helpful for you to start with one of those if you like, and there are many of those texts lying around in the department. 
+
+An ADS library\footnote{\url{https://ui.adsabs.harvard.edu/public-libraries/GNAgYNMhRiOegMbBCXsdfg}} is set up that will hold relevant papers. Please view this library, and if you know of other relevant papers, let me know and I can add them.
+
+In addition, you are required to be able to run the MESA code. Instructions are given in the MESA Notes file.
+
+
+\subsection*{Office hours}
+
+My office is room 106 in the Astronomy building. You can come by any time the door is open!
+
+
+\subsection*{Policies}
+
+You are responsible for being aware of the following information.
+
+\subsubsection*{Plagiarism}
+Plagiarism is using another person's work without acknowledgment, making it appear to be one's own. Any ideas, words, pictures, or other source must be acknowledged in a citation that gives credit to the source. This is true no mater where the material comes from, including the internet, other student's work, unpublished materials, or oral sources. Intentional and unintentional instances of plagiarism are considered instances of academic misconduct. It is the responsibility of the student submitting the work in question to know, understand, and comply with this policy. 
+
+Check the NMSU student code of conduct  manual for more information\footnote{\url{http://studenthandbook.nmsu.edu/}}. We will adhere to those policies in this course. In short,  {\bf always cite} work done by others that you borrow. The NMSU Library has more information and help on how to avoid plagiarism at \simplelatexlink{http://lib.nmsu.edu/plagiarism/}{http://lib.nmsu.edu/plagiarism/}. Also  see the \textbf{updated} procedures regarding academic integrity in the Academic Student Code of Conduct\footnote{\url{https://arp.nmsu.edu/5-10/}}.
+
+
+
+
+ 
+%Feel free to call Michael Armendariz, Coordinator of Services for Students with Disabilities, at 575-646-6840 with any questions you may have on student issues related to the Americans with Disabilities Act (ADA) and/or Section 504 of the Rehabilitation Act of 1973.  All medical information will be treated confidentially.
+
+\subsubsection*{Use of Artificial Intelligence}
+\textbf{Use of Generative AI Permitted Under Some Circumstances or with Explicit Permission.} During this class, we may use AI Writing tools. You will be informed as to when, where, and how these tools are permitted to be used, along with guidance for attribution. It is important to note that if AI tools are permitted to be used for an assignment, they should be used with caution and proper citation. 
+
+\subsubsection*{Discrimination and Disability Accommodation}
+Section 504 of the Rehabilitation Act of 1973 and the Americans with Disabilities Act Amendments Act (ADA) covers issues relating to disability and accommodations. If a student has questions or needs an accommodation in the classroom (all medical information is treated confidentially), contact:    Disability Access Services, Corbett Center Student Union Room 204, Aaron Salas, Director, 575-646-6840,das@nmsu.edu.  Website\simplelatexlinkfoot{https://studentlife.nmsu.edu/disability-access-services1/index.html}{https://studentlife.nmsu.edu/disability-access-services1/index.html}
+
+New Mexico State University, in compliance with applicable laws and in furtherance of its commitment to fostering an environment that welcomes and embraces diversity, does not discriminate on the basis of age, ancestry, color, disability, gender identity, genetic information, national origin, race, religion, retaliation, serious medical condition, sex (including pregnancy), sexual orientation, spousal affiliation, or protected veteran status in its programs and activities, including employment, admissions, and educational programs and activities. You may submit a report online at equity.nmsu.edu. If you have an urgent concern, please contact the Office of Institutional Equity at 575-646-3635.
+
+Title IX prohibits sex harassment, sexual assault, dating and domestic violence, stalking and retaliation. For more information on discrimination or Title IX, or to file a complaint contact: Office of Institutional Equity (OIE) - O'Loughlin House, 1130 University Avenue Phone: (575) 646-3635 E-mail: equity@nmsu.edu. Website: \simplelatexlinkfoot{https://equity.nmsu.edu/}{https://equity.nmsu.edu/}
+
+
+%\subsubsection*{Disabilities}
+
+%Section 504 of the Rehabilitation Act of 1973 and the Americans with Disabilities Act (ADA) cover issues
+relating to disability and accommodations. If a student has questions or needs an accommodation in the
+classroom (all medical information is treated confidentially), contact: Trudy Luken, Student Accessibility Services (SAS) - Corbett Center, Rm. 208, Phone: 646.6840. E-mail: sas ``at'' nmsu.edu.
+
+
+%\subsubsection*{Discrimination}
+
+%New Mexico State University, in compliance with applicable laws and in furtherance of its commitment to fostering an environment that welcomes and embraces diversity, does not discriminate on the basis of age, ancestry, color, disability, gender identity, genetic information, national origin, race, religion, retaliation, serious medical condition, sex (including pregnancy), sexual orientation, spousal affiliation, or protected veteran status in its programs and activities, including employment, admissions, and educational programs and activities.  Inquiries may be directed to
+
+
+
+ 
+\subsubsection*{Syllabus Modifications Statement}
+
+This syllabus is subject to revision to best fit the educational needs of the class. Any changes or modifications will be announced in class and/or on Canvas.
+
+
+\end{document}
