@@ -1,0 +1,317 @@
+<HTML>
+<HEAD>
+<TITLE>Astronomy 565 Fall 2015</TITLE>
+<LINK REV="made" HREF="mailto:">
+<META NAME="generator" CONTENT="NoteTab Light 4.95">
+<META NAME="author" CONTENT="jason jackiewicz">
+<META NAME="description" CONTENT="">
+<META NAME="keywords" CONTENT="">
+
+<!-- css calls -->
+<link href="maincss.css" rel="stylesheet" type="text/css" />
+
+
+</HEAD>
+
+
+<body>	
+<div id="main">
+
+<table id="pagetable" height="auto">
+<!--  TOP FRAME - ROW OF TABLE -->
+<tr>
+<td  colspan="3" class="nopad" >
+<iframe   id="topiframe" src="topframe.html" scrolling="no" frameborder="0"
+marginheight="0" marginwidth="0"></iframe>
+</td>
+</tr>
+<!-- LEFT FRAME WITH MENU
+
+
+
+
+<!-- MAIN CONTENTS IN MIDDLE -->
+<!-- THIS IS THE ONLY PART THAT SHOULD BE CHANGED -->
+<td  valign="top" class="somepad" class="mainwidth2cols">
+<div id="contents">
+
+  
+
+  
+<!-- INSERT ALL CONTENT HERE -->
+<span class="pagetitle">Polytrope values</span><br><br> 
+
+ 
+
+  <p>KEY: 
+<p style="color:yellow;background-color:gray">Yellow means kind of close, maybe within a factor of a couple or less, even a tenth. Some small miscalculation.
+<p style="color:red">Red means pretty far off, probably some major error somewhere
+
+<table style="width:100%" border="2px" >
+  <tr>
+    <th>n</th>
+    <th>Name</th>
+    <th>&#958<sub>1</sub></th>
+    <th>&#961<sub>c</sub>/&#961<sub>mean</sub></th>
+    <th>N<sub>n</sub></th>
+    <th>W<sub>n</sub></th>
+    <th>&#920<sub>n</sub></th>
+    <th>&#961<sub>c</sub></th>
+    <th>P<sub>c</sub></th>
+    <th>T<sub>c</sub></th>
+  </tr>
+
+  <tr align="left">
+    <td>0.0
+    <td>-
+    <td>
+    <td>1.000
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+  </tr>
+
+  <tr align="left">
+    <td>0.5
+    <td>Hannah
+    <td  bgcolor=""> 2.753
+    <td  bgcolor=""> 1.835
+    <td  bgcolor=""> 2.524
+    <td  bgcolor="">0.212
+    <td  bgcolor=""> 0.484
+    <td  bgcolor=""> 2.588
+    <td  bgcolor="">2.392e15
+    <td bgcolor="yellow"> 6.862e6
+  </tr>
+  
+
+
+  <tr align="left">
+    <td>1.0
+    <td>-
+    <td>3.142
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+  </tr>
+
+  <tr align="left">
+    <td>1.5
+    <td>Harrison
+    <td bgcolor="">3.654
+    <td bgcolor="">5.991
+    <td bgcolor="">0.424
+    <td bgcolor=""> 0.770
+    <td bgcolor=""> 0.539
+    <td bgcolor="">8.437
+    <td bgcolor=""> 8.666e15 
+    <td bgcolor="">7.625e6
+  </tr>
+ 
+
+
+  <tr align="left">
+    <td>2.0
+    <td>Rogelio
+    <td>4.353
+    <td>11.403
+    <td bgcolor="">0.365
+    <td>1.638
+    <td>0.602
+    <td> 16.067
+    <td>  1.844e+16
+    <td bgcolor="yellow"> 8.526e6
+  </tr>
+
+  <tr align="left">
+    <td>2.25
+    <td>Annie
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td bgcolor="">
+  </tr>
+
+  <tr align="left">
+    <td>2.5
+    <td>Ali
+    <td> 5.355
+    <td>23.406
+    <td bgcolor="" >0.352
+    <td>3.909
+    <td> 0.700
+    <td> 32.979
+    <td bgcolor="">4.399e16
+    <td bgcolor="">9.906e6
+  </tr>
+
+  
+  <tr align="left">
+    <td>2.75
+    <td>Audrey
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td bgcolor="">
+    <td bgcolor="">
+    <td  bgcolor="">
+  </tr>
+
+  <tr align="left">
+    <td>3.0
+    <td>Mark
+    <td bgcolor=""> 6.896
+    <td bgcolor=""> 54.182
+    <td bgcolor="">0.364
+    <td bgcolor="">11.051
+    <td bgcolor="">0.854
+    <td bgcolor="">76.316
+    <td bgcolor="">1.243e17
+    <td bgcolor="">1.209e7
+  </tr>
+  
+
+
+  <tr align="left">
+    <td>3.25
+    <td>Alexander
+    <td>
+    <td  bgcolor="">
+    <td bgcolor="">
+    <td bgcolor="">
+    <td bgcolor="">
+    <td  bgcolor="">
+    <td  bgcolor="">
+    <td  bgcolor="">
+  </tr>
+
+  <tr align="left">
+    <td>3.5
+    <td>Kelly
+    <td bgcolor="">9.536
+    <td bgcolor="">152.884
+    <td>0.401
+    <td bgcolor="">40.909
+    <td>1.121
+    <td bgcolor="">215.426
+    <td bgcolor="">4.605e17
+    <td bgcolor="">1.587e6
+  </tr>
+
+  <tr align="left">
+    <td>3.75
+    <td>Farhan
+    <td bgcolor="">11.691
+    <td bgcolor="">289.508
+    <td bgcolor="">  0.432
+    <td bgcolor="">92.460
+    <td>1.337
+    <td bgcolor="">407.9415
+    <td bgcolor="">1.041e18
+    <td bgcolor="">1.894e7
+  </tr>
+ 
+  <tr align="left">
+    <td>4.0
+    <td>Bryson
+     <td bgcolor="">14.972
+    <td bgcolor=""> 622.407
+    <td bgcolor="">  0.477
+    <td bgcolor=""> 247.559
+    <td bgcolor="">1.666
+    <td bgcolor="">878.437
+    <td bgcolor="">2.793e18 
+    <td bgcolor=""> 2.361e7 
+  </tr>
+              
+
+ 
+
+   <tr align="left">
+    <td>4.25
+    <td>Matt
+    <td>20.529 
+    <td>1635.874  
+    <td> 0.545  
+    <td>  866.230  
+    <td> 2.218   
+    <td bgcolor=""> 2306.298    
+    <td bgcolor="">9.758e18 
+    <td bgcolor=""> 3.141e7
+  </tr>
+  
+  <tr align="left">
+    <td>4.5
+    <td>Oana
+    <td> 31.836
+    <td> 6189.473
+    <td>  0.658
+    <td>4921.842
+    <td>3.331
+    <td bgcolor=""> 8728.384
+    <td bgcolor="yellow"> 5.547e18
+    <td bgcolor="yellow"> 4.719e7
+  </tr>
+
+
+
+
+  <tr align="left">
+    <td>4.75
+    <td>Manny
+    <td>66.387
+    <td>56562.419
+    <td>0.904
+    <td>90417.678
+    <td>6.696
+    <td bgcolor="">79661.123
+    <td>1.017e21
+    <td bgcolor="yellow">9.481e7
+  </tr>
+
+  
+  <tr align="left">
+    <td>5.0
+    <td>-
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+  </tr>
+
+  
+  
+
+</table>
+
+  
+
+
+
+
+
+
+
+</table>
+
+
+</div>
+</body>
+</HTML>

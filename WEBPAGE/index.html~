@@ -1,0 +1,477 @@
+<HTML>
+<HEAD>
+<TITLE>Astronomy 565 Spring 2024</TITLE>
+<LINK REV="made" HREF="mailto:">
+<META NAME="generator" CONTENT="NoteTab Light 4.95">
+<META NAME="author" CONTENT="jason jackiewicz">
+<META NAME="description" CONTENT="">
+<META NAME="keywords" CONTENT="">
+
+<!-- css calls -->
+<link href="maincss.css" rel="stylesheet" type="text/css" />
+
+
+</HEAD>
+
+
+<body>	
+<div id="main">
+
+<table id="pagetable" height="auto">
+<!--  TOP FRAME - ROW OF TABLE -->
+<tr>
+<td  colspan="3" class="nopad" >
+<iframe   id="topiframe" src="topframe.html" scrolling="no" frameborder="0"
+marginheight="0" marginwidth="0"></iframe>
+</td>
+</tr>
+<!-- LEFT FRAME WITH MENU -->
+<tr>
+<td  valign="top" class="leftwidth">
+<iframe id="leftiframe"  src="leftframe.html" scrolling="no" frameborder="0"
+marginheight="0" marginwidth="0"></iframe>
+</td>
+
+
+
+
+<!-- MAIN CONTENTS IN MIDDLE -->
+<!-- THIS IS THE ONLY PART THAT SHOULD BE CHANGED -->
+<td  valign="top" class="somepad" class="mainwidth2cols">
+<div id="contents">
+
+  <p style="text-align:right; color:black; font-size:smaller">
+  <script language="Javascript">
+  document.write("<i>"+"last updated on: "+"</i>"+document.lastModified)
+  </script>
+  
+
+  
+<!-- INSERT ALL CONTENT HERE -->
+<!-- <span class="pagetitle">Home</span><br><br> -->
+
+ 
+
+  
+ <!-- TABLE HEADER ----------------------->
+<div id="lists">
+<table id="notes">
+<tr>
+<th width=8%>DATE</th>
+<th width=25%>TOPICS</th>
+<th width=67%>FILES, NOTES, and ASSIGNMENTS</th>
+</tr>
+<!---------------------------------------->
+
+
+<tr>
+  <td>Apr. 16</td>
+  <td>Unit 19</td>
+
+  <td>
+    <ul>
+      <li>Evolution on the main sequence
+
+    <li><u>ASSIGNMENTS</u>:</li>
+    <li class="due">DUE: Evolution figures on the main sequence
+  </ul></td>
+</tr>
+
+
+<tr>
+  <td>Apr. 11</td>
+  <td>Unit 16</td>
+  <td>Schwarzschild and Ledoux criteria, mixing lenght theory, convective overshoot</td>
+</tr>
+
+<tr>
+  <td>Apr. 4</td>
+  <td>Unit 15.1, 15.2</td>
+  <td>Convective instability, buoyancy frequency</td>
+</tr>
+
+
+<tr>
+  <td>Mar. 29</td>
+  <td>Unit 13.1, 13.2</td>
+  <td>Diffusion and radiation transport</td>
+</tr>
+
+
+<tr>
+  <td>Mar. 26</td>
+  <td>Unit 14.1, 14.2</td>
+  <td><a href="https://eltnmsu-my.sharepoint.com/:wb:/g/personal/jasonj_nmsu_edu/EXQCLD7u15lKtC9neQddapEBnX9M3epKRTTLB7MF0dsYgw?e=nE6mPh">Whiteboard 3</a>
+  </td>
+</tr>
+
+<tr>
+  <td>Mar. 21</td>
+  <td>Unit 13.1, 13.2</td>
+  <td>Diffusion and radiation transport</td>
+</tr>
+
+<tr>
+  <td>Mar. 19</td>
+  <td>Unit 12.2</td>
+  <td>Ionization effects on thermodynamics</td>
+</tr>
+
+<tr>
+  <td>Mar. 7</td>
+  <td>Unit 12.1, 12.2</td>
+  <td>Mixture of ideal gas and radiation</td>
+  </td>
+</tr>
+
+
+<tr>
+  <td>Mar. 5</td>
+  <td>Unit 11.1, 11.2</td>
+  <td>Ideal gas thermodynamics, adiabatic process. We are skipping polytropes from chapter 10.</td>
+</tr>
+
+<tr>
+  <td>Feb. 29</td>
+  <td>Unit 9.2</td>
+  <td><a href="https://eltnmsu-my.sharepoint.com/:wb:/g/personal/jasonj_nmsu_edu/EYYULvoSD8dIgZGlVMxnlPgBMHD-wYYUoqKO18ITpBDzyA?e=lZ8n6z">Whiteboard 2</a>
+  </td>
+</tr>
+
+
+<tr>
+  <td>Feb. 27</td>
+  <td>Unit 9.1</td>
+  <td>
+    <ul>
+      <li>Whiteboard 1 stops here.
+      <li>No mid-term, but we will discuss important topics in class and what you should know after spring break
+      <li>Discussed Evolution Project, assigned masses
+   <li><u>ASSIGNMENTS</u>:</li>
+  <li class="assignhw">Evolution Project: initial movie of model, due March 7
+    </ul>
+  </td>
+</tr>
+
+
+<tr>
+  <td>Feb. 22</td>
+  <td>Unit 8.2</td>
+  <td>
+  </td>
+</tr>
+
+<tr>
+  <td>Feb. 20</td>
+  <td>Unit 8.1</td>
+  <td>
+    <ul>
+   <li><u>ASSIGNMENTS</u>:</li>
+  <li class="due">DUE: Homework problem 7.1
+    </ul>
+    </td>
+</tr>
+
+
+<tr>
+  <td>Feb. 15</td>
+  <td>Unit 7.1, 7.2</td>
+  <td>
+    <ul>
+   <li><u>ASSIGNMENTS</u>:</li>
+  <li class="assignhw">Homework problem 7.1, due February 20, 10:30am
+    </ul>
+    </td>
+</tr>
+
+<tr>
+  <td>Feb. 13</td>
+  <td>Unit 6.2, 6.3</td>
+  <td>
+    <ul>
+      <li><u>ASSIGNMENTS</u>:</li>
+      <li class="due">DUE: Computer Problem 1.1
+    </ul>
+  </td>
+</tr>
+
+
+<tr>
+  <td>Feb. 8</td>
+  <td>Unit 6.1</td>
+</tr>
+
+<tr>
+  <td>Feb. 6</td>
+  <td>Unit 5</td>
+</tr>
+
+<tr>
+  <td>Feb. 1</td>
+  <td>Units 4.2, 4.3</td>
+</tr>
+
+<tr>
+  <td>Jan. 30</td>
+  <td>Units 1, 4: 1.4, 1.5, 4.1</td>
+  <td>
+    <ul>
+      <li> Skipping Units 2 and 3 for now </li>
+    <li><u>ASSIGNMENTS</u>:</li>
+    <li class="assignhw">Computer Problem 1.1 (no nuclear reactions). DUE: Feb. 13, 10:30am
+    <li class="due">DUE by CLASS TIME: Computer Problem 0 (MESA intro project)
+    </ul>
+  </td>
+ 
+</tr>
+
+
+<tr>
+  <td>Jan. 25</td>
+  <td>Unit 1: 1.1 - 1.4.1</td>
+</tr>
+
+
+
+<tr>
+  <td>Jan. 23</td>
+  <td><b>Introduction</br> </b><br><br> - <i>Overview</i></td>
+  <td>
+    <ul>
+      <li>Files:&nbsp    [<a href="docs/intro_beamer.pdf">slides</a>]  [<a href="docs/intro_article.pdf">article</a>]
+	<li> <a href="https://eltnmsu-my.sharepoint.com/:wb:/g/personal/jasonj_nmsu_edu/EXC39SViLVJIlS5YhN_o0BwBSNO7STonvCkaKRqabVFpLw?e=cATbtP" target="_blank">Whiteboard 1</a>
+
+       <li><u>ASSIGNMENTS</u>:</li>
+       <li class="assignhw">  Read carefully the syllabus and MESA notes available in the menu on the left 
+       <li class="assignhw">Try to run MESA and submit the first assignment in the MESA notes (Computer Problem 0)
+       <li class="due">DUE: Tuesday, January 30, Computer Problem 0, electronic submission in Canvas
+   
+    </ul>
+      </td>
+
+    </tr>
+
+<!--
+
+
+
+
+-->
+
+<!-- 
+<tr class="exam">
+  <td>Dec. 4-8</td>
+  <td colspan=2>FINAL EXAM WEEK </td>
+</tr>
+
+
+<tr>
+  <td>Nov. 30</td>
+ <td>NO CLASS</td>
+  <td>
+   <ul>
+     <li> Work on projects 
+   </ul>
+ </td>
+</tr>
+
+<tr>
+  <td>Nov. 28</td>
+  <td>NO CLASS</td>
+  <td>
+   <ul>
+     <li> Work on projects 
+   </ul>
+ </td>
+</tr>
+
+<tr>
+  <td>Nov. 21, 23</td>
+  <td colspan=2>Thanksgiving Break</td>
+</tr>
+
+<tr>
+  <td>Nov. 16</td>
+  <td><b>UNIT 5: The Post Main Sequence</b><br><br>  <i>Asymptotic giant branch, thermal pulses</i><br><br>
+  <td> <ul>
+    <li>NOTES FROM LATER SECTIONS ARE INCLUDING IN THIS FILE
+    <li> [<a href="docs/11_16.pdf">notes</a>]</td>
+
+</tr>
+
+
+<tr>
+  <td>Nov. 14</td>
+  <td><b>UNIT 5: The Post Main Sequence</b><br><br>  <i>RG luminosity bump, He flash, location of zero-age horizontal branch, triple-alpha process</i><br><br>
+  <td><ul>
+    <li> [<a href="docs/11_14.pdf">notes</a>] </td>
+
+</tr>
+
+
+
+<tr>
+  <td>Nov. 9</td>
+  <td><b>UNIT 5: The Post Main Sequence</b><br><br>  <i>High/low-mass stars on the RGB</i><br><br>
+  <td> <ul>
+    <li> [<a href="docs/11_09.pdf">notes</a>]
+    <li> [<a href="docs/M5.0.pdf">5 solar mass .pdf "movie"</a>] (use acrobat reader to view)
+    <li> [<a href="docs/M1.0.pdf">1 solar mass .pdf "movie"</a>] (use acrobat reader to view)
+  </td>
+
+</tr>
+
+
+
+
+<tr>
+  <td>Nov. 7</td>
+  <td><b>UNIT 5: The Post Main Sequence</b> <br><br>  <i>Low-mass stars, Schoenberg-Chandrasekhar limit, subgiant branch, shell-burning law</i>
+  <td>[<a href="docs/11_07.pdf">notes</a>] </td>
+
+</tr>
+
+
+<tr>
+  <td>Nov. 2</td>
+  <td><b>UNIT 4: The Main Sequence</b><br><br>  <i>Convective stars, main-sequence evolution</i>
+  <td>[<a href="docs/11_02.pdf">notes</a>]
+    <ul>
+    <li class="due">DUE at CLASS TIME: Problems 3.1, 3.2, 3.3 </td>
+</tr>
+
+
+<tr>
+  <td>Oct. 31</td>
+  <td><b>UNIT 4: The Main Sequence</b>  <br><br>  <i>Summary of structure equations, homology scalings</i>
+  <td>[<a href="docs/10_31.pdf">notes</a>] 
+  <li><u>ASSIGNMENTS</u>:</li>
+  <li class="assignhw">Final computer project, DUE Sunday Dec. 3
+  <li class="assignhw"><a href="http://astro.wsu.edu/models/calc/XYZ.html?">online converter</a> between mass fractions and abundance mixtures</td>
+
+</tr>
+
+<tr>
+  <td>Oct. 26</td>
+  <td><b>UNIT 3: Energy Transport</b>  <br><br>  <i>Mixing-length theory, where convection occurs</i>
+  <td>[<a href="docs/10_26.pdf">notes</a>]
+ 
+</tr>
+
+
+<tr>
+  <td>Oct. 24</td>
+  <td><b>UNIT 3: Energy Transport</b>  <br><br>  <i>Schwarzschild and Ledoux criteria, Brunt-Vaisala frequency</i>
+  <td>[<a href="docs/10_24.pdf">notes</a>]
+    <li><u>ASSIGNMENTS</u>:</li>
+    <li class="assignhw">Problem 3.3 </td>
+ 
+</tr>
+
+
+<tr>
+  <td>Oct. 19</td>
+  <td> <i>Polytrope review</i>
+  <td> [<a href="docs/10_19.pdf">notes</a>]
+  </td>
+ 
+</tr>
+
+
+<tr>
+  <td>Oct. 19</td>
+  <td><b>UNIT 4: The Main Sequence</b> 
+  <td> </td>
+ 
+</tr>
+
+
+<tr>
+  <td>Oct. 17</td>
+  <td><b>PART II - STELLAR EVOLUTION<br><br>UNIT 4: The Main Sequence</b> 
+  <td> </td>
+  
+</tr>
+
+
+<tr>
+  <td>Oct. 17</td>
+  <td><b>UNIT 3: Energy Transport</b>  <br><br>  <i>Eddington luminosity, conduction, convective instability</i>
+  <td> [<a href="docs/10_17.pdf">notes</a>]
+  </td>
+ 
+</tr>
+
+
+<tr>
+  <td>Oct. 12</td>
+  <td>NO CLASS</td>
+  <td> <ul><li class="due">DUE by 1PM: 8 written problems from Unit 2 and Computer problem 2.1. Turn into Ofelia in Astronomy office.</td>
+ 
+</tr>
+
+
+<tr>
+  <td>Oct. 10</td>
+  <td>NO CLASS </td>
+  <td>
+  </td>
+</tr>
+
+
+
+
+
+
+<tr>
+  <td>Sep. 28</td>
+  <td><b>UNIT 2: Hydrostatics</b> <br><br>  <i>Virial theorem (cont'd), polytropes</i>
+  <td> [<a href="docs/09_28.pdf">notes</a>]
+    <li><u>ASSIGNMENTS</u>:</li>
+    <li class="assignhw">Computer Problem 2.1 (polytrope)
+    <li class="due">DUE by CLASS TIME on TUESDAY October 10: 8 written problems from Unit 2 and Computer problem 2.1
+  </td>
+ 
+</tr>
+
+
+
+
+<tr>
+  <td>Sep. 26</td>
+  <td><b>UNIT 2: Hydrostatics</b> <br><br>  <i>Hydrostatic equilibrium, Virial theorem</i>
+  <td>  [<a href="docs/09_26.pdf">notes</a>]
+  <li><u>ASSIGNMENTS</u>:</li>
+  <li class="assignhw">Problems 2.6, 2.7, 2.8
+  </td>
+ 
+</tr>
+-->
+
+
+
+
+</table>
+</div>
+
+
+  
+
+
+
+
+<!-- BOTTOM FRAME WITH WHATEVER -->
+<tr>
+<td valign="top" colspan="3" class="nopad" >
+<iframe id="bottomiframe"  src="bottomframe.html" scrolling="no" frameborder="0"
+marginheight="0" marginwidth="0"></iframe>
+</td>
+</tr>
+
+
+</table>
+
+
+</div>
+</body>
+</HTML>
